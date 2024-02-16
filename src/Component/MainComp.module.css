@@ -1,0 +1,540 @@
+.maincomp{
+    /* border: 2px solid teal; */
+    width: 100%;
+    height: 80vh;
+    /* margin-left: 5%; */
+    margin-top: 5vh;
+    background-image: url('../../src/Images/Mask group (1).png')   ;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-left: 222px; */
+    display: flex;
+}
+
+  
+
+.maincomp img {
+    /* margin-left: 222px; */
+}
+.podcast{
+    /* border: 1px solid green; */
+    width: 1450px;
+    height: 80vh;
+    margin-left: 12%;
+   margin-top: 30px;
+
+    
+}
+.podcast h2{
+    color: rgb(82, 225, 82);
+    font-family: Clash Display;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 1px;
+text-align: center;
+/* text-align: left; */
+/* margin-top: 30px; */
+
+}
+.podcast h2::after {
+    content: '';
+    position: absolute;
+    left: 45%;
+    bottom: -80px; /* Adjust as needed */
+    width: 10%;
+    height: 2px; /* Adjust thickness of the line */
+    background-color: rgba(176, 251, 73, 1); /* Adjust color */
+  }
+  .displaycomp{
+    /* border: 1px solid green; */
+    width: 1450px;
+    height: 68vh;
+    display: flex;
+    justify-content: space-evenly;
+  
+  }
+  .firstdiv{
+    /* border:1px solid rgba(119, 126, 126, 0.244); */
+    height: 53vh;
+    width: 10%;
+    margin-top: 3%;
+    /* margin-left: 5%; */
+    border-radius: 24px;
+    /* background-color: rgba(45,55,70,255); */
+    background-color: #354455;
+    
+
+  }
+  .seconddiv{
+    /* border:2px solid green; */
+    height: 57vh;
+    width: 45%;
+    margin-top: 1%;
+    /* margin-left: 8%; */
+    background-image: url('../../src/Images/Rectangle.png');
+    border-radius: 24px;
+    
+  }
+  .thirddiv{
+    /* border:2px solid green; */
+    height: 53vh;
+    width: 10%;
+    margin-top: 3%;
+    border-radius: 24px;
+    background-color: rgba(33, 70, 116, 0.941);
+
+    /* margin-left: 8%; */
+  }
+  .numberone{
+    font-family: Clash Display;
+font-size: 40px;
+font-weight: 900;
+line-height: 45px;
+letter-spacing: 1.944892168045044px;
+text-align: center;
+color: rgba(176, 251, 73, 1);
+
+  }
+  .lorm img{
+    margin-left: 50px;
+     margin-top: 20px;
+  }
+ .secondnum{
+    margin-left: 20px;
+    color:  rgba(18, 52, 103, 1);
+    /* font-family: Clash Display; */
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 1.944892168045044px;
+/* text-align: center; */
+ }
+ .seconddiv h3{
+    font-family: Clash Display;
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 1.944892168045044px;
+/* text-align: center; */
+margin-left: 50px;
+color: rgba(255, 255, 255, 1);
+margin-top: 33%;
+
+
+ }
+ .seconddiv p{
+    /* font-family: Clash Display; */
+font-size: 13   px;
+font-weight: 350;
+line-height: 20px;
+letter-spacing: 1.944892168045044px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-left: 50px;
+
+margin-top: 3%;
+
+ }
+ .numberthird{
+    font-family: Clash Display;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 1.944892168045044px;
+    text-align: center;
+    color: rgba(176, 251, 73, 1);
+    /* background-color: rgb(78, 78, 248); */
+
+
+ }
+ .letest{
+  /* border: 1px solid red; */
+  height: 102vh;
+  width: 80%;
+  margin-left: 10%;
+
+ }
+ .let1{
+  /* border: 1px solid black; */
+  width: 70%;
+  height: 10vh;
+  margin-left: 8%;
+  display: flex;
+ }
+.let1 div h1{
+  font-family: Clash Display;
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+letter-spacing: 0.02em;
+text-align: left;
+color: rgba(176, 251, 73, 1);
+
+}
+.let1 div button{
+  font-family: Clash Display;
+font-size: 20px;
+font-weight: 600;
+width: 90px;
+
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: center;
+margin-top: 28px;
+margin-left: 40px;
+border-radius: 19px;
+border: none;
+background-color: rgba(176, 251, 73, 1);
+
+}
+.imagegallery{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr)
+  
+}
+.imagegallery div{
+  /* border: 1px solid red; */
+  width: 340px;
+  height: 40vh;
+  margin-left: 10%
+}
+.imagegallery div img{
+ width: 340px;
+}
+.imagegallery div p{
+  font-family: Clash Display;
+font-size: 12px;
+font-weight: 600;
+line-height: 10px;
+letter-spacing: 0.02em;
+text-align: left;
+color:  rgba(255, 255, 255, 1);
+margin-bottom: -30px;
+
+
+}
+.imagegallery div h5{
+  font-family: Clash Display;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-bottom: -20px;
+  
+color:  rgba(255, 255, 255, 1);
+
+
+}
+.imagegallery div h6{
+  font-family: Clash Display;
+font-size: 20px;
+font-weight: 700;
+line-height: 13px;
+letter-spacing: 0.02em;
+text-align: left;
+
+font-family: Clash Display;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0.02em;
+text-align: left;
+
+font-family: Montserrat Alternates;
+font-size: 14px;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 0.02em;
+color:  rgba(255, 255, 255, 1);
+
+text-align: left;
+
+
+
+}
+.btn{
+  border: 2px solid rgb(199, 198, 198);
+  font-family: Clash Display;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: center;
+border-radius: 10px ;
+width: 15%;
+height: 6vh;
+margin-left: 40%;
+background-color: #354455;
+color: rgba(176, 251, 73, 1);
+
+
+}
+.feature{
+  /* border: 2px solid red; */
+  height: 25vh;
+  width: 80%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.featurebox1{
+  /* border: 2px solid red; */
+  width: 80%;
+  height: auto  ;
+}
+.featurebox1 h1{
+  /* font-family: Clash Display; */
+font-size: 50px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: -0.40000003576278687px;
+text-align: left;
+color: rgba(176, 251, 73, 1);
+margin-left: 10%;
+
+}
+.featurebox2{
+  width: 75%;
+  /* border: 2px solid red; */
+
+}
+.featurebox2 p{
+  /* font-family: Clash Display; */
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.40000003576278687px;
+text-align: left;
+margin-top: 10%;
+color: rgba(255, 255, 255, 1);
+
+}
+.card{
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 40vh;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.card div{
+ 
+  border: 2px solid rgb(255, 255, 255);
+  width: 300px;
+  height: 357px;
+  margin-left: 20%;
+  margin-top: 10px;
+  border-radius: 24px;
+}
+.carddiv img{
+  margin-top: 18%;
+  margin-left: 30px;
+}
+.carddiv h1{
+  /* border: 2px solid red; */
+  /* font-family: Clash Display; */
+  margin-left: 30px;
+width: 220px;
+font-size: 24px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 1.944892168045044px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+.carddiv p{
+  /* border: 2px solid red; */
+  /* font-family: Clash Display; */
+  margin-left: 30px;
+width: 220px;
+font-family: Clash Display;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(205, 201, 201, 1);
+
+}
+.saying{
+  /* border: 2px solid red; */
+  height: 25vh;
+  width: 80%;
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.sayingbox1{
+  width: 70%;
+  height: auto  ;
+}
+.sayingbox1 h1{
+  font-family: Clash Display;
+font-size: 56px;
+font-weight: 600;
+line-height: 78px;
+letter-spacing: -0.40000003576278687px;
+text-align: left;
+color: rgba(176, 251, 73, 1);
+
+}
+.sayingbox2{
+height: 30vh;
+width: 68%;
+
+}
+.sayingbox2 p{
+  font-family: Clash Display;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 1);
+  
+}
+.sayingcard{
+  width: 80%;
+  /* border: 2px solid black; */
+  height: 35vh;
+  margin-left: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sayingcard div{
+  border: 2px solid rgb(130, 136, 136);
+    width: 55%;
+    height: 25vh;
+    margin-left: 20%;
+    border-radius: 24px;
+  background-color: rgb(56, 78, 104);
+
+}
+.sayingcard div img{
+  margin-left: 20%;
+  margin-top: 15px;
+}
+/* .sayingcard div h1{
+  margin-bottom: -10px;
+} */
+.ccc{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 20%;
+  /* border: 2px solid red; */
+  height: 7vh;
+
+}
+.ccc h1{
+  font-family: Clash Display;
+  /* border: 2px solid red; */
+font-size: 24px;
+width: 230px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: -0.40000003576278687px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-bottom: -20px;
+
+}
+.ccc h1 p{
+  font-family: Clash Display;
+  /* border: 2px solid red; */
+
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: -0.40000003576278687px;
+text-align: left;
+margin-bottom: -10px;
+
+}
+.sayingcard h2{
+/* font-family: Clash Display; */
+font-size: 24px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+/* border: 2px solid red; */
+width: 80%;
+margin-left: 6%;
+margin-top: 10%;
+
+}
+.ragister{
+  border: 1px solid rgb(56, 78, 104);
+  width: 60%;
+  height: 30vh;
+  margin-left: 18%;
+ border-radius: 16px;
+}
+.ragister h1{
+  /* font-family: Clash Display; */
+font-size: 48px;
+font-weight: 700;
+/* border: 1px solid black; */
+width: 40%;
+margin-left: 30%;
+line-height: 67px;
+letter-spacing: 3px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+
+}
+.ragistercont{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-top: 5%;
+
+}
+.ragistercont input{
+  border: none;
+  height: 5vh;
+  border-radius: 8px;
+  width: 600px;
+  margin-left: 30%;
+  background: rgba(22, 42, 71, 1);
+
+}
+.ragistercont button {
+  width: 25%;
+  border-radius: 8px;
+  border: none;
+  background: rgba(176, 251, 73, 1);
+color: black;
+  margin-left: 38%;
+  font-family: Clash Display;
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: -0.24210529029369354px;
+text-align: center;
+
+}
+
+
+/* Responsive layout adjustments */
+/* @media screen and (max-width: 768px) {
+  .imagegallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .imagegallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */

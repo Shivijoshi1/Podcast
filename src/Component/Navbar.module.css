@@ -1,0 +1,95 @@
+.mainnav{
+  
+    height: 7vh;
+    width: 1200px;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+    /* position: absolute; */
+}
+
+.logo img{
+    /* border: 2px solid red; */
+    width:251px ;
+    height: 63.01px;
+
+}
+.navcont ul{
+    display: flex;
+    gap: 30px;
+    color: aliceblue;
+    margin-left: 6%;
+    /* font-family: Clash Display; */
+font-size: 13px;
+font-weight: 600;
+line-height: 20px;
+/* letter-spacing: 0.02em; */
+/* text-align: left; */
+
+}
+.navcont ul :first-child{
+  font-size: 15px;
+  color:  rgba(176, 251, 73, 1);
+
+/* width: 120px; */
+}
+.navcont ul  :nth-child(2){
+  width: 120px;
+  /* border: 2px solid green; */
+}
+.navcont ul  :nth-child(4){
+  width: 120px;
+  /* border: 2px solid green; */
+}
+.navcont h3{
+    margin-right: 20px;
+    
+}
+
+.SearchBar input{
+    box-shadow: 1px 1px 14px 0px rgba(0, 0, 0, 0.14);
+ border: 1px solid grey;
+ height: 30px;
+ margin-top: 15px;
+ background-color: rgb(101, 126, 180);
+ border-radius: 9px;
+ margin-left: 200px;
+
+
+}
+
+.searchicon {
+    position: absolute;
+ 
+    pointer-events: none; /* Ensures the icon does not interfere with input events */
+  }
+  .Login h3{
+    margin-left: 80px;
+color: #FFFFFF;
+  }
+  .signup{
+    /* border: 2px solid black; */
+   
+  }
+  .signup button{
+    width: 100px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: rgb(101, 126, 180);
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 9px solid rgb(101, 126, 180) ;
+        
+  }
+
+
+ 
+
+
+
+
+
+
+
+
+
